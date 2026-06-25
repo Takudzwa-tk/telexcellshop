@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products | Telex Cell shop</title>
+
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <h1>Telex Cell shop</h1>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="repairs.html">Repairs</a></li>
+        <li><a href="booking.html">Book Repair</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<header class="page-header">
+    <h1>Our Products</h1>
+    <p>Quality gadgets, accessories and replacement parts.</p>
+</header>
+
+<section class="search-section">
+
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search products..."
+    onkeyup="searchProducts()">
+
+</section>
+
+<section class="categories">
+
+    <div class="category-buttons">
+
+        <button onclick="filterCategory('all')">
+            All Products
+        </button>
+
+        <button onclick="filterCategory('phones')">
+            Phone Accessories
+        </button>
+
+        <button onclick="filterCategory('laptops')">
+            Laptop Accessories
+        </button>
+
+        <button onclick="filterCategory('tablets')">
+            Tablet Accessories
+        </button>
+
+        <button onclick="filterCategory('parts')">
+            Spare Parts
+        </button>
+
+    </div>
+
+</section>
+
+<section class="product-grid">
+
+    <div class="product phones">
+        <img src="images/phone-cover.jpg" alt="">
+        <h3>Premium Phone Cover</h3>
+        <p>Shockproof protection.</p>
+        <span>R99</span>
+    </div>
+
+    <div class="product phones">
+        <img src="images/screen-protector.jpg" alt="">
+        <h3>Tempered Glass</h3>
+        <p>Screen protection.</p>
+        <span>R79</span>
+    </div>
+
+    <div class="product phones">
+        <img src="images/charger.jpg" alt="">
+        <h3>Fast Charger</h3>
+        <p>25W Fast Charging.</p>
+        <span>R250</span>
+    </div>
+
+    <div class="product phones">
+        <img src="images/powerbank.jpg" alt="">
+        <h3>Power Bank</h3>
+        <p>10000mAh.</p>
+        <span>R450</span>
+    </div>
+
+    <div class="product laptops">
+        <img src="images/mouse.jpg" alt="">
+        <h3>Wireless Mouse</h3>
+        <p>Comfortable and reliable.</p>
+        <span>R250</span>
+    </div>
+
+    <div class="product laptops">
+        <img src="images/laptop-bag.jpg" alt="">
+        <h3>Laptop Bag</h3>
+        <p>15.6 inch compatible.</p>
+        <span>R399</span>
+    </div>
+
+    <div class="product laptops">
+        <img src="images/cooling-pad.jpg" alt="">
+        <h3>Cooling Pad</h3>
+        <p>Dual fan cooling.</p>
+        <span>R350</span>
+    </div>
+
+    <div class="product tablets">
+        <img src="images/tablet-cover.jpg" alt="">
+        <h3>Tablet Cover</h3>
+        <p>Protective cover.</p>
+        <span>R199</span>
+    </div>
+
+    <div class="product tablets">
+        <img src="images/stylus.jpg" alt="">
+        <h3>Stylus Pen</h3>
+        <p>Precision writing.</p>
+        <span>R299</span>
+    </div>
+
+    <div class="product parts">
+        <img src="images/battery.jpg" alt="">
+        <h3>Phone Battery</h3>
+        <p>Replacement battery.</p>
+        <span>R350</span>
+    </div>
+
+    <div class="product parts">
+        <img src="images/charging-port.jpg" alt="">
+        <h3>Charging Port</h3>
+        <p>Replacement part.</p>
+        <span>R250</span>
+    </div>
+
+    <div class="product parts">
+        <img src="images/laptop-ssd.jpg" alt="">
+        <h3>SSD 500GB</h3>
+        <p>Fast storage upgrade.</p>
+        <span>R900</span>
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>TechFix Repairs</h3>
+
+    <p>Quality Products & Accessories</p>
+
+</footer>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>

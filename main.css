@@ -1,0 +1,317 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#0d1b2a;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo h1{
+color:white;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#00b4d8;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url("../images/hero.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content h2{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:1.2rem;
+margin-bottom:20px;
+}
+
+/* PAGE HEADER */
+
+.page-header{
+background:#14213d;
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#00b4d8;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn-secondary{
+display:inline-block;
+padding:12px 25px;
+background:#ffffff;
+color:#14213d;
+text-decoration:none;
+border-radius:5px;
+margin-left:10px;
+}
+
+/* SECTIONS */
+
+section{
+padding:60px 8%;
+}
+
+section h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+/* GRID */
+
+.grid,
+.product-grid,
+.service-grid,
+.brand-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+/* CARDS */
+
+.card,
+.product,
+.brand{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover,
+.product:hover{
+transform:translateY(-8px);
+}
+
+.brand{
+font-weight:bold;
+}
+
+/* PRODUCTS */
+
+.product img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.product span{
+display:block;
+margin-top:10px;
+font-weight:bold;
+color:green;
+}
+
+/* SEARCH */
+
+.search-section{
+text-align:center;
+margin-top:20px;
+}
+
+.search-section input{
+width:60%;
+max-width:600px;
+padding:15px;
+border-radius:30px;
+border:1px solid #ccc;
+}
+
+/* CATEGORIES */
+
+.category-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.category-buttons button{
+padding:12px 20px;
+border:none;
+border-radius:30px;
+background:#0077b6;
+color:white;
+cursor:pointer;
+}
+
+/* CALCULATOR */
+
+.calculator{
+max-width:700px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.calculator input{
+width:100%;
+padding:12px;
+margin:10px 0;
+}
+
+.calculator button{
+width:100%;
+padding:12px;
+background:#0077b6;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+/* BOOKING */
+
+.booking{
+max-width:700px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.booking input,
+.booking textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+}
+
+.booking button{
+width:100%;
+padding:12px;
+background:#25D366;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+/* CONTACT */
+
+.contact-box{
+max-width:700px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+background:#0d1b2a;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+color:white;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-content h2{
+font-size:2rem;
+}
+
+.search-section input{
+width:90%;
+}
+
+}

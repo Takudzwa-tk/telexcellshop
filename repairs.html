@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Repairs | Telex Cell shop</title>
+
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <h1>Telex Cell shop</h1>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="repairs.html">Repairs</a></li>
+        <li><a href="booking.html">Book Repair</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<header class="page-header">
+    <h1>Repair Services</h1>
+    <p>Professional repairs for all major brands.</p>
+</header>
+
+<section class="service-grid">
+
+    <div class="card">
+        <h3>Phone Screen Replacement</h3>
+        <p>Starting from R650</p>
+    </div>
+
+    <div class="card">
+        <h3>Battery Replacement</h3>
+        <p>Starting from R350</p>
+    </div>
+
+    <div class="card">
+        <h3>Charging Port Repair</h3>
+        <p>Starting from R450</p>
+    </div>
+
+    <div class="card">
+        <h3>Laptop Screen Repair</h3>
+        <p>Starting from R1800</p>
+    </div>
+
+    <div class="card">
+        <h3>Keyboard Replacement</h3>
+        <p>Starting from R900</p>
+    </div>
+
+    <div class="card">
+        <h3>Virus Removal</h3>
+        <p>Starting from R350</p>
+    </div>
+
+</section>
+
+<section class="calculator">
+
+<h2>Repair Cost Calculator</h2>
+
+<input
+type="number"
+id="partCost"
+placeholder="Part Cost">
+
+<input
+type="number"
+id="labourCost"
+placeholder="Labour Cost">
+
+<button onclick="calculateRepair()">
+Calculate Total
+</button>
+
+<h3 id="result">
+Estimated Cost: R0
+</h3>
+
+</section>
+
+<footer>
+
+<h3>TechFix Repairs</h3>
+
+<p>Fast • Affordable • Reliable</p>
+
+</footer>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>
