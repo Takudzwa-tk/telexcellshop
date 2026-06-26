@@ -130,7 +130,7 @@ margin-left:10px;
 /* SECTIONS */
 
 section{
-padding:60px 8%;
+padding:20px 8%;
 }
 
 section h2{
@@ -228,7 +228,7 @@ cursor:pointer;
 max-width:700px;
 margin:auto;
 background:white;
-padding:30px;
+padding:20px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,.1);
 }
@@ -270,7 +270,7 @@ cursor:pointer;
 max-width:700px;
 margin:auto;
 background:white;
-padding:30px;
+padding:20px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,.1);
 }
@@ -297,7 +297,7 @@ cursor:pointer;
 max-width:700px;
 margin:auto;
 background:white;
-padding:30px;
+padding:20px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,.1);
 text-align:center;
@@ -309,7 +309,7 @@ footer{
 background:#0d1b2a;
 color:white;
 text-align:center;
-padding:30px;
+padding:20px;
 margin-top:50px;
 }
 
