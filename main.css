@@ -14,7 +14,7 @@ line-height:1.6;
 /* NAVBAR */
 
 .navbar{
-height: 150px;
+height: 120px;
 background:#0c0d0d;
 display:flex;
 justify-content:space-between;
@@ -223,8 +223,8 @@ margin:10px 0;
 }
 
 .logo img{
-    width:400px;
-    height:400px;
+    width:70px;
+    height:70px;
     object-fit:contain;
 }
 
