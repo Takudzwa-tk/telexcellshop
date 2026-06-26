@@ -6,6 +6,8 @@
 <title>Telex Cell shop</title>
 
 <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,15 +22,16 @@
 
 </div>
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="repairs.html">Repairs</a></li>
-        <li><a href="booking.html">Book Repair</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
 
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="repairs.html">Repairs</a></li>
+    <li><a href="booking.html">Book Repair</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </nav>
 
 <header class="hero">
@@ -133,6 +136,10 @@ class="whatsapp"
 target="_blank">
 💬
 </a>
-
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
 </body>
 </html>

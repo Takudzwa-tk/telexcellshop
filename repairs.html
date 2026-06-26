@@ -16,14 +16,16 @@
         <h1>Telex Cell shop</h1>
     </div>
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="repairs.html">Repairs</a></li>
-        <li><a href="booking.html">Book Repair</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+   <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="repairs.html">Repairs</a></li>
+    <li><a href="booking.html">Book Repair</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 
 </nav>
 
@@ -99,6 +101,10 @@ Estimated Cost: R0
 </footer>
 
 <script src="calculator.js"></script>
-
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
 </body>
 </html>
