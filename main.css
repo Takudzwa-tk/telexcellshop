@@ -36,9 +36,7 @@ line-height:1.6;
   color: #00aaff; /* bright tech blue */
   text-shadow: 0 0 8px #ff6600; /* glowing orange accent */
   margin: 0;
-  background: linear-gradient(90deg, #00aaff, #ff6600);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ 
 }
 .logo h1:hover {
   letter-spacing: 2px;
